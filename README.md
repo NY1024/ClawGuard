@@ -16,11 +16,13 @@ ClawGuard is designed as a modular suite of security tools. We are continuously 
 
 ### Current Components
 
-- **[OpenClaw Skill Auditor](./openclaw-skill-auditor/)**: A rigorous security gateway prompt designed to audit third-party Skills before OpenClaw installs or configures them. It forces the agent to assess provenance, permissions, network behavior, and dependencies to prevent the execution of malicious code.
+- **[Prompt-based Auditor](../auditor-prompt/)**: A rigorous security gateway prompt designed to audit third-party Skills before OpenClaw installs or configures them. It forces the agent to assess provenance, permissions, network behavior, and dependencies to prevent the execution of malicious code.
+
+- **[Skill-based Auditor](../auditor-skill/)**: A native Skill for ClawGuard that securely audits operations, requiring installation but providing deeper system-level guardrails.
 
 ### 🚧 Upcoming Releases
 
-Stay tuned! We will be rolling out additional protection modules and specialized datasets soon, such as:
+Stay tuned! We will be rolling out additional protection modules and specialized datasets soon, including:
 - **Runtime Guardrails:** Modules to monitor and sandbox agent execution in real-time.
 - **Vulnerability Datasets:** Comprehensive datasets of malicious prompts, poisoned skills, and edge cases to test and harden agent security.
 - **Data Loss Prevention (DLP) Filters:** Tools to intercept and redact sensitive information before it reaches external LLM APIs.
