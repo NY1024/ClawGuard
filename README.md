@@ -2,6 +2,8 @@
 
 [中文版](./README.zh-CN.md)
 
+**Our Project: https://github.com/SafeAgent-Beihang/clawguard**
+
 **ClawGuard** is a security toolkit designed to mitigate risks associated with autonomous agents, such as **OpenClaw** and other LLM-driven entities. As agents gain more autonomy to execute code, access APIs, and manage files, ClawGuard provides necessary guardrails to help reduce security risks.
 
 ## 📖 Why ClawGuard?
